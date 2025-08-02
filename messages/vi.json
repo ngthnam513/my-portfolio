@@ -1,0 +1,31 @@
+{
+  "HEADER": {
+    "ABOUT": "Giới thiệu",
+    "BLOGS": "Blog",
+    "FOOTBALL_NEWS": "Tin tức bóng đá",
+    "VI_VN": "Tiếng Việt",
+    "EN_US": "English",
+    "DOWNLOAD": "Tải xuống CV"
+  },
+
+  "FOOTER": {
+    "MESSAGE": "Bạn đang tìm kiếm một nhà phát triển, có câu hỏi hoặc chỉ muốn kết nối? Hãy liên hệ với tôi.",
+    "MESSAGE_2": "Bạn cũng có thể tìm thấy tôi trên các nền tảng này!",
+    "COPYRIGHT": "© {year} | Designed and built with ❤️ by Nem"
+  },
+
+  "HOME_PAGE": {
+    "TITLE": "Giới thiệu",
+    "DESCRIPTION": "Hello world!"
+  },
+
+  "BLOGS_PAGE": {
+    "TITLE": "Blog",
+    "DESCRIPTION": "Chào mừng bạn đến với blog của Nem!"
+  },
+
+  "ACTION": {
+    "COPY": "Sao chép",
+    "COPIED": "Đã sao chép vào clipboard!"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "HEADER": {
+    "ABOUT": "About",
+    "BLOGS": "Blogs",
+    "FOOTBALL_NEWS": "Football News",
+    "VI_VN": "Vietnamese",
+    "EN_US": "English",
+    "DOWNLOAD": "Download CV"
+  },
+
+  "FOOTER": {
+    "MESSAGE": "What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
+    "MESSAGE_2": "You may also find me on these platforms!",
+    "COPYRIGHT": "© {year} | Designed and built with ❤️ by Nem"
+  },
+
+  "HOME_PAGE": {
+    "TITLE": "Introduction",
+    "DESCRIPTION": "Hello world!"
+  },
+
+  "BLOGS_PAGE": {
+    "TITLE": "Blog",
+    "DESCRIPTION": "Welcome to my blog!"
+  },
+
+  "ACTION": {
+    "COPY": "Copy",
+    "COPIED": "Copied to clipboard!"
+  }
+}
