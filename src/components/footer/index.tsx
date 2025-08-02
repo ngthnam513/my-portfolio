@@ -47,21 +47,21 @@ export default function Footer() {
         </p>
         <div className="flex justify-center items-center gap-4 mt-2">
           <a
-            href="https://www.linkedin.com/in/nguyen-thanh-nam-123456789/"
+            href="https://github.com/TheChickenDev"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Github className="w-6 h-6 text-secondary" />
           </a>
           <a
-            href="https://www.facebook.com/ngthnam513"
+            href="https://www.facebook.com/nam.nguyens.359"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Facebook className="w-6 h-6 text-secondary" />
           </a>
           <a
-            href="https://www.linkedin.com/in/nguyen-thanh-nam-123456789/"
+            href="https://www.linkedin.com/in/nam-nguyen-thanh-5a51b3278/"
             target="_blank"
             rel="noopener noreferrer"
           >
