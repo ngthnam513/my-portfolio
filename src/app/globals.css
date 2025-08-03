@@ -41,6 +41,7 @@
 
 .dark {
   --primary: #ffffff;
+  --foreground: #ffffff;
   --primary-foreground: #ffffff;
   --secondary: #d1d5db;
   --secondary-foreground: #d1d5db;

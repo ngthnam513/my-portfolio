@@ -27,7 +27,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-background shadow-md px-4 md:px-12 lg:px-28">
+    <header className="bg-background px-4 md:px-12 lg:px-28">
       <div className="flex justify-between items-center h-[68px]">
         <p className="text-primary text-3xl md:text-4xl font-bold leading-none">
           {"<NTN />"}
