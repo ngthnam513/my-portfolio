@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { BriefcaseBusiness, ExternalLink, Link, MapPin } from "lucide-react";
+import { BriefcaseBusiness, Link, MapPin } from "lucide-react";
 import Image from "next/image";
 import { ProfilePicture, ProfilePicture_2 } from "../../../public";
 import MySocialMedia from "@/components/my-social-media";

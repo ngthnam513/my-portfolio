@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useTransition } from "react";
 import { Globe, Loader2 } from "lucide-react";
 import {
@@ -11,17 +11,20 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "../ui/collapsible";
 
-const locales = [
-  { code: "en", label: "English" },
-  { code: "vi", label: "Tiếng Việt" },
-];
+const locales = ["vi", "en"];
 
 export default function LocaleSelector() {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
   const [isPending, startTransition] = useTransition();
+  const t = useTranslations("LOCALES");
 
   const handleLocaleChange = (newLocale: string) => {
     if (newLocale === locale) return;
@@ -34,32 +37,58 @@ export default function LocaleSelector() {
     });
   };
 
-  const currentLocaleLabel =
-    locales.find((l) => l.code === locale)?.label || "Language";
-
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="flex items-center gap-2">
-          {isPending ? (
-            <Loader2 className="h-4 w-4 animate-spin" />
-          ) : (
-            <Globe className="h-4 w-4" />
-          )}
-          {currentLocaleLabel}
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent>
-        {locales.map(({ code, label }) => (
-          <DropdownMenuItem
-            key={code}
-            onClick={() => handleLocaleChange(code)}
-            disabled={code === locale || isPending}
+    <>
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button
+            variant="outline"
+            className="hidden md:flex items-center gap-2"
           >
-            {label}
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+            {isPending ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : (
+              <Globe className="h-4 w-4" />
+            )}
+            {t(locale)}
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent>
+          {locales.map((code) => (
+            <DropdownMenuItem
+              key={code}
+              onClick={() => handleLocaleChange(code)}
+              disabled={code === locale || isPending}
+            >
+              {t(code)}
+            </DropdownMenuItem>
+          ))}
+        </DropdownMenuContent>
+      </DropdownMenu>
+      <Collapsible className="w-full block md:hidden">
+        <CollapsibleTrigger asChild>
+          <div className="flex justify-between items-center px-4 py-2">
+            {t(locale)}
+            {isPending ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : (
+              <Globe className="h-4 w-4" />
+            )}
+          </div>
+        </CollapsibleTrigger>
+        <CollapsibleContent className="border dark:border-[#374151] m-2 rounded-sm">
+          {locales.map((code, index) => (
+            <div
+              key={code}
+              onClick={() => handleLocaleChange(code)}
+              style={{ padding: "10px" }}
+              className={index > 0 ? "border-t dark:border-[#374151]" : ""}
+            >
+              {t(code)}
+            </div>
+          ))}
+        </CollapsibleContent>
+      </Collapsible>
+    </>
   );
 }

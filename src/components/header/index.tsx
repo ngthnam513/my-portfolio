@@ -14,11 +14,13 @@ import Link from "next/link";
 import routes from "@/contants/routes";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { useState } from "react";
 
 export default function Header() {
   const t = useTranslations("HEADER");
   const currentPath = usePathname();
   const currentLocale = useLocale();
+  const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
   const isActive = (path: string) => {
     const pathWithoutLocale =
@@ -61,7 +63,7 @@ export default function Header() {
           </div>
         </div>
         <div className="md:hidden flex justify-center items-center">
-          <Sheet>
+          <Sheet open={openMobileMenu} onOpenChange={setOpenMobileMenu}>
             <SheetTrigger className="opacity-70">
               <Menu className="size-8" />
             </SheetTrigger>
@@ -71,6 +73,39 @@ export default function Header() {
                   {"<NTN />"}
                 </p>
               </SheetHeader>
+              <div className="flex flex-col">
+                <Link
+                  href={routes.home}
+                  className={cn("text-secondary px-4 py-2", {
+                    "font-extrabold": isActive(routes.home),
+                  })}
+                  onClick={() => setOpenMobileMenu(false)}
+                >
+                  {t("ABOUT")}
+                </Link>
+                <Link
+                  href={routes.blogs}
+                  className={cn("text-secondary px-4 py-2", {
+                    "font-extrabold": isActive(routes.blogs),
+                  })}
+                  onClick={() => setOpenMobileMenu(false)}
+                >
+                  {t("BLOGS")}
+                </Link>
+                <Link
+                  href={routes.footballNews}
+                  className={cn("text-secondary px-4 py-2", {
+                    "font-extrabold": isActive(routes.footballNews),
+                  })}
+                  onClick={() => setOpenMobileMenu(false)}
+                >
+                  {t("FOOTBALL_NEWS")}
+                </Link>
+                <div className="border-t dark:border-[#374151] mt-4">
+                  <LocaleSelector />
+                  <ThemeSelector />
+                </div>
+              </div>
             </SheetContent>
           </Sheet>
         </div>

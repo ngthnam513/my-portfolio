@@ -3,9 +3,18 @@
     "ABOUT": "Giới thiệu",
     "BLOGS": "Blog",
     "FOOTBALL_NEWS": "Tin tức bóng đá",
-    "VI_VN": "Tiếng Việt",
-    "EN_US": "English",
     "DOWNLOAD": "Tải xuống CV"
+  },
+
+  "LOCALES": {
+    "vi": "Tiếng Việt",
+    "en": "Tiếng Anh"
+  },
+
+  "THEMES": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
   },
 
   "FOOTER": {

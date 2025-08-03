@@ -3,9 +3,18 @@
     "ABOUT": "About",
     "BLOGS": "Blogs",
     "FOOTBALL_NEWS": "Football News",
-    "VI_VN": "Vietnamese",
-    "EN_US": "English",
     "DOWNLOAD": "Download CV"
+  },
+
+  "LOCALES": {
+    "vi": "Vietnamese",
+    "en": "English"
+  },
+
+  "THEMES": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   },
 
   "FOOTER": {
