@@ -4,8 +4,8 @@ import { routing } from "@/i18n/routing";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Toaster } from "@/components/ui/sonner";
-import { ThemeProvider } from "next-themes";
 import RouteLoading from "@/components/route-loading";
+import { Providers } from "../providers";
 
 export default async function LocaleLayout({
   children,
@@ -23,13 +23,13 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Providers>
             <RouteLoading />
             <Toaster />
             <Header />
             {children}
             <Footer />
-          </ThemeProvider>
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>

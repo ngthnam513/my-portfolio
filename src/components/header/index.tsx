@@ -49,12 +49,12 @@ export default function Header() {
               {t("BLOGS")}
             </Link>
             <Link
-              href={routes.footballNews}
+              href={routes.miniApps}
               className={cn({
-                "font-extrabold": isActive(routes.footballNews),
+                "font-extrabold": isActive(routes.miniApps),
               })}
             >
-              {t("FOOTBALL_NEWS")}
+              {t("MINI_APPS")}
             </Link>
           </div>
           <div className="flex space-x-2">
@@ -93,13 +93,13 @@ export default function Header() {
                   {t("BLOGS")}
                 </Link>
                 <Link
-                  href={routes.footballNews}
+                  href={routes.miniApps}
                   className={cn("text-secondary px-4 py-2", {
-                    "font-extrabold": isActive(routes.footballNews),
+                    "font-extrabold": isActive(routes.miniApps),
                   })}
                   onClick={() => setOpenMobileMenu(false)}
                 >
-                  {t("FOOTBALL_NEWS")}
+                  {t("MINI_APPS")}
                 </Link>
                 <div className="border-t dark:border-[#374151] mt-4">
                   <LocaleSelector />

@@ -1,7 +1,7 @@
 const routes = {
   home: "/",
   blogs: "/blogs",
-  footballNews: "/football-news",
+  miniApps: "/mini-apps",
 };
 
 export default routes;

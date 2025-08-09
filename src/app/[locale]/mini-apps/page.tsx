@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
-export default function FootballNews() {
+export default function BlogsPage() {
   const t = useTranslations("BLOGS_PAGE");
   return (
     <div className="min-h-screen">

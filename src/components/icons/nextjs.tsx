@@ -8,7 +8,7 @@ export default function NextJSIcon(props: React.SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_327_1884)">
+      <g clipPath="url(#clip0_327_1884)">
         <mask
           id="mask0_327_1884"
           style={{ maskType: "alpha" }}
@@ -28,7 +28,7 @@ export default function NextJSIcon(props: React.SVGProps<SVGSVGElement>) {
             d="M32.4402 62.9333C49.5242 62.9333 63.3735 49.084 63.3735 32C63.3735 14.916 49.5242 1.06665 32.4402 1.06665C15.3562 1.06665 1.50684 14.916 1.50684 32C1.50684 49.084 15.3562 62.9333 32.4402 62.9333Z"
             fill="black"
             stroke="white"
-            stroke-width="6"
+            strokeWidth="6"
           />
           <path
             d="M53.5985 56.0071L25.024 19.2H19.6401V44.7893H23.9472V24.6697L50.2176 58.6115C51.403 57.8183 52.5322 56.9475 53.5985 56.0071Z"
@@ -49,8 +49,8 @@ export default function NextJSIcon(props: React.SVGProps<SVGSVGElement>) {
           y2="57.0666"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_327_1884"
@@ -60,8 +60,8 @@ export default function NextJSIcon(props: React.SVGProps<SVGSVGElement>) {
           y2="38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_327_1884">
           <rect
