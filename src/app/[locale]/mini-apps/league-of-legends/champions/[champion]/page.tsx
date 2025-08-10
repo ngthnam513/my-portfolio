@@ -15,15 +15,12 @@ import AbilitiesSection from "./abilities";
 import SkinsSection from "./skins";
 
 interface ChampionPageProps {
-  champion: string;
-  locale: string;
+  params: Promise<{ champion: string; locale: string }>;
 }
 
 export async function generateMetadata({
   params,
-}: {
-  params: ChampionPageProps;
-}): Promise<Metadata> {
+}: ChampionPageProps): Promise<Metadata> {
   const { champion, locale } = await params;
   return {
     icons: {
@@ -37,11 +34,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function ChampionPage({
-  params,
-}: {
-  params: ChampionPageProps;
-}) {
+export default async function ChampionPage({ params }: ChampionPageProps) {
   const { champion, locale } = await params;
   const response = await getChampionByName(
     getLeagueOfLegendsLocale(locale),

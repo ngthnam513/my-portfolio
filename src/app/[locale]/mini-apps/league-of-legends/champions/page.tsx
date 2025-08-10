@@ -10,14 +10,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface LeagueOfLegendsChampionsPageProps {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }
 
 export async function generateMetadata({
   params,
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
+}: LeagueOfLegendsChampionsPageProps): Promise<Metadata> {
   const { locale } = await params;
   return {
     title:
