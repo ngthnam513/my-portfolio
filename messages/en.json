@@ -59,6 +59,33 @@
     "DESCRIPTION": "Welcome to my blog!"
   },
 
+  "MINI_APPS_PAGE": {
+    "TITLE": "Mini Apps",
+    "DESCRIPTION": "Welcome to my mini apps!",
+    "LEAGUE_OF_LEGENDS_CHAMPIONS": "League of Legends Champions"
+  },
+
+  "LEAGUE_OF_LEGENDS_CHAMPIONS_PAGE": {
+    "CHOOSE": "Now choose a",
+    "CHAMPION": "Champion",
+    "DESCRIPTION": "With more than 140 champions, you’ll find the perfect match for your playstyle. Master one, or master them all.",
+    "ROLE": "Role",
+    "ASSASSIN": "Assassin",
+    "FIGHTER": "Fighter",
+    "MAGE": "Mage",
+    "MARKSMAN": "Marksman",
+    "SUPPORT": "Support",
+    "TANK": "Tank",
+    "DIFFICULTY": "Difficulty",
+    "EASY": "Easy",
+    "MEDIUM": "Medium",
+    "HARD": "Hard",
+    "CHAMPION_MASTERY": "Champion mastery",
+    "ABILITIES": "Abilities",
+    "PASSIVE": "Passive",
+    "AVAILABLE_SKINS": "Available Skins"
+  },
+
   "ACTION": {
     "COPY": "Copy",
     "COPIED": "Copied to clipboard!"

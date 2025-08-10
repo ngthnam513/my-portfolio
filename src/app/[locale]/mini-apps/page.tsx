@@ -1,12 +1,14 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import routes from "@/contants/routes";
 
-export default function BlogsPage() {
-  const t = useTranslations("BLOGS_PAGE");
+export default function MiniAppsPage() {
+  const t = useTranslations("MINI_APPS_PAGE");
   return (
     <div className="min-h-screen">
-      <h1>{t("TITLE")}</h1>
-      <Link href="/en">{t("DESCRIPTION")}</Link>
+      <Link href={routes.leagueOfLegendsChampions}>
+        {t("LEAGUE_OF_LEGENDS_CHAMPIONS")}
+      </Link>
     </div>
   );
 }

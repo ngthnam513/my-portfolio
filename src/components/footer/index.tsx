@@ -50,7 +50,7 @@ export default function Footer() {
           <MySocialMedia className="mt-2" />
         </div>
       </div>
-      <div className="py-4 text-center bg-background-secondary">
+      <div className="py-4 text-center bg-secondary-background">
         <span className="text-secondary">
           {t("FOOTER.COPYRIGHT", { year: new Date().getFullYear() })}
         </span>

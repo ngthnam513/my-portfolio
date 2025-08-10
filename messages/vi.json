@@ -59,6 +59,33 @@
     "DESCRIPTION": "Chào mừng bạn đến với blog của Nem!"
   },
 
+  "MINI_APPS_PAGE": {
+    "TITLE": "Kho ứng dụng",
+    "DESCRIPTION": "Khám phá các ứng dụng nhỏ thú vị!",
+    "LEAGUE_OF_LEGENDS_CHAMPIONS": "Các tướng trong Liên Minh Huyền Thoại"
+  },
+
+  "LEAGUE_OF_LEGENDS_CHAMPIONS_PAGE": {
+    "CHOOSE": "Chọn ngay một",
+    "CHAMPION": "Tướng",
+    "DESCRIPTION": "Với hơn 140 tướng, bạn chắc chắn sẽ tìm thấy một lựa chọn phù hợp với lối chơi của mình. Chọn một tướng tủ hoặc sử dụng điêu luyện tất cả.",
+    "ROLE": "Vai trò",
+    "ASSASSIN": "Sát thủ",
+    "FIGHTER": "Đấu sĩ",
+    "MAGE": "Pháp sư",
+    "MARKSMAN": "Xạ thủ",
+    "SUPPORT": "Hỗ trợ",
+    "TANK": "Đỡ đòn",
+    "DIFFICULTY": "Độ khó",
+    "EASY": "Dễ",
+    "MEDIUM": "Trung bình",
+    "HARD": "Khó",
+    "CHAMPION_MASTERY": "Thành thạo tướng",
+    "ABILITIES": "Kỹ năng",
+    "PASSIVE": "Nội tại",
+    "AVAILABLE_SKINS": "Các trang phục có sẵn"
+  },
+
   "ACTION": {
     "COPY": "Sao chép",
     "COPIED": "Đã sao chép vào clipboard!"

@@ -1,12 +1,82 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-Light.ttf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-LightItalic.ttf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-Regular.ttf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-Italic.ttf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-Medium.ttf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-MediumItalic.ttf")
+    format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-Bold.ttf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-BoldItalic.ttf")
+    format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-Heavy.ttf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufort for LOL";
+  src: url("/fonts/BeaufortForLoL/BeaufortforLOL-HeavyItalic.ttf")
+    format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
   --radius: 0.625rem;
   --background: #ffffff;
-  --background-secondary: #f9fafb;
+  --secondary-background: #f9fafb;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -46,7 +116,7 @@
   --secondary: #d1d5db;
   --secondary-foreground: #d1d5db;
   --background: #030712;
-  --background-secondary: #111827;
+  --secondary-background: #111827;
 }
 
 @theme inline {
@@ -55,7 +125,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --color-background: var(--background);
-  --color-background-secondary: var(--background-secondary);
+  --color-secondary-background: var(--secondary-background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
@@ -88,11 +158,16 @@
   --color-sidebar-ring: var(--sidebar-ring);
 
   --animate-progress: "progress";
+
+  --color-lol-background: #0a1428;
+  --color-lol-foreground: #c8aa6e;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    font-family: "Beaufort for LOL", sans-serif;
+    box-sizing: border-box;
   }
   body {
     @apply bg-background text-foreground;
