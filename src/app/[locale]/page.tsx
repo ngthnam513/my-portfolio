@@ -56,7 +56,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="bg-background-secondary gap-16 px-4 md:px-12 lg:px-28 py-16">
+      <section className="bg-secondary-background gap-16 px-4 md:px-12 lg:px-28 py-16">
         <h1 className="text-base text-secondary-foreground px-2 bg-[#e5e7eb] dark:bg-[#374151] rounded-xl max-w-28 text-center mx-auto">
           {t("ABOUT_ME")}
         </h1>
@@ -156,7 +156,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="bg-background-secondary gap-16 px-4 md:px-12 lg:px-28 py-16">
+      <section className="bg-secondary-background gap-16 px-4 md:px-12 lg:px-28 py-16">
         <h1 className="text-base text-secondary-foreground px-2 bg-[#e5e7eb] dark:bg-[#374151] rounded-xl max-w-28 text-center mx-auto">
           {t("PROJECTS")}
         </h1>

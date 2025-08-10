@@ -25,15 +25,21 @@ export default function Header() {
   const isActive = (path: string) => {
     const pathWithoutLocale =
       currentPath.replace(`/${currentLocale}`, "") || "/";
-    return pathWithoutLocale === path;
+    if (path === routes.home) {
+      return pathWithoutLocale === path;
+    }
+    return pathWithoutLocale.includes(path);
   };
 
   return (
-    <header className="bg-background px-4 md:px-12 lg:px-28">
-      <div className="flex justify-between items-center h-[68px]">
-        <p className="text-primary text-3xl md:text-4xl font-bold leading-none">
-          {"<NTN />"}
-        </p>
+    <header className="bg-background px-4 md:px-12 lg:px-28 fixed top-0 left-0 right-0 z-50">
+      <div className="flex justify-between items-center h-16">
+        <Link
+          href={routes.home}
+          className="text-primary text-3xl md:text-4xl font-bold leading-none"
+        >
+          &lt;NTN /&gt;
+        </Link>
         <div className="hidden md:flex justify-between items-center space-x-8">
           <div className="flex space-x-4 text-secondary">
             <Link
@@ -69,9 +75,13 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent>
               <SheetHeader className="h-[68px] bg-background px-4 py-0 justify-center shadow-md">
-                <p className="sm:hidden text-primary text-4xl font-bold">
-                  {"<NTN />"}
-                </p>
+                <Link
+                  href={routes.home}
+                  className="sm:hidden text-primary text-4xl font-bold"
+                  onClick={() => setOpenMobileMenu(false)}
+                >
+                  &lt;NTN /&gt;
+                </Link>
               </SheetHeader>
               <div className="flex flex-col">
                 <Link
