@@ -1,0 +1,93 @@
+{
+    "HEADER": {
+        "ABOUT": "Giới thiệu",
+        "BLOGS": "Blog",
+        "MINI_APPS": "Kho ứng dụng",
+        "DOWNLOAD": "Tải xuống CV"
+    },
+
+    "LOCALES": {
+        "vi": "Tiếng Việt",
+        "en": "Tiếng Anh"
+    },
+
+    "THEMES": {
+        "light": "Sáng",
+        "dark": "Tối",
+        "system": "Hệ thống"
+    },
+
+    "FOOTER": {
+        "MESSAGE": "Bạn đang tìm kiếm một nhà phát triển, có câu hỏi hoặc chỉ muốn kết nối? Hãy liên hệ với tôi.",
+        "MESSAGE_2": "Bạn cũng có thể tìm thấy tôi trên các nền tảng này!",
+        "COPYRIGHT": "© {year} | Designed and built with ❤️ by Nem"
+    },
+
+    "HOME_PAGE": {
+        "TITLE": "Xin chào, tôi là Nem!",
+        "DESCRIPTION": "Tôi là một lập trình viên fullstack (React.js, Next.js & Node.js) với mục tiêu tạo ra những trải nghiệm kỹ thuật số xuất sắc, nhanh chóng, dễ tiếp cận, hấp dẫn về mặt hình ảnh và đáp ứng tốt. Mặc dù tôi đã tạo ra các ứng dụng web hơn 1 năm, nhưng tôi vẫn yêu thích nó như thể đó là điều mới mẻ.",
+        "LOCATION": "Đồng Tháp, Việt Nam",
+        "CURRENT_STATUS": "Sẵn sàng cho các dự án mới",
+        "ABOUT_ME": "Về tôi",
+        "ABOUT_ME_DESCRIPTION_1": "Bạn tò mò về tôi? Đây nè:",
+        "ABOUT_ME_DESCRIPTION_2": "Tôi là một lập trình viên chuyên về phát triển fullstack (React.js, Next.js & Node.js). Tôi rất nhiệt huyết trong việc mang đến sự kết hợp giữa kỹ thuật và yếu tố hình ảnh cho các sản phẩm kỹ thuật số. Trải nghiệm người dùng, thiết kế chuẩn từng pixel và việc viết code rõ ràng, dễ đọc, hiệu năng cao là những điều tôi luôn đề cao.",
+        "ABOUT_ME_DESCRIPTION_3": "Tôi bắt đầu hành trình trở thành một lập trình viên web vào năm 2021, và kể từ đó, tôi không ngừng phát triển, học hỏi những công nghệ mới nhất và đón nhận những thử thách mới. Giờ đây, ở độ tuổi đầu hai mươi, sau 4 năm kể từ khi bắt đầu sự nghiệp lập trình web, tôi đang xây dựng những ứng dụng web hiện đại bằng các công nghệ tiên tiến như Next.js, TypeScript, Tailwindcss, Shadcn/ui, Frappe,  và nhiều công cụ khác.",
+        "ABOUT_ME_DESCRIPTION_4": "Tôi là người có tư duy tiến bộ và rất thích làm việc với sản phẩm theo quy trình khép kín, từ ý tưởng ban đầu cho đến khi phát triển hoàn chỉnh.",
+        "ABOUT_ME_DESCRIPTION_5": "Khi không ở trong chế độ \"lập trình viên toàn thời gian\", bạn có thể thấy tôi lướt qua Facebook hoặc Reddit, theo dõi hành trình của những startup giai đoạn đầu hoặc đơn giản là tận hưởng thời gian rảnh rỗi. Bạn có thể theo dõi tôi trên Facebook, nơi tôi chia sẻ những mẩu kiến thức công nghệ và hành trình xây dựng sản phẩm công khai, hoặc trên GitHub.",
+        "ABOUT_ME_DESCRIPTION_6": "Một vài điều thú vị về tôi.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_1": "Tôi có thể nói tiếng Việt và một chút tiếng Anh.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_2": "Tôi là một người yêu thích công nghệ.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_3": "Tôi thích chơi game, đặc biệt là các trò chơi chiến thuật và nhập vai.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_4": "Tôi cũng là một người yêu thích bóng đá, và tôi thường dành thời gian rảnh rỗi để theo dõi các trận đấu bóng đá, đặc biệt là những trận đấu của Marcelo Vieira.",
+        "ABOUT_ME_DESCRIPTION_7": "Cuối cùng, tôi hiện cũng nhận các dự án freelance, vì vậy đừng ngần ngại liên hệ và gửi lời chào nhé! Tôi hứa là tôi không cắn đâu :D.",
+        "SKILLS": "Kỹ năng",
+        "SKILLS_DESCRIPTION": "Kỹ năng, công cụ và công nghệ mà tôi sử dụng:",
+        "PROJECTS": "Dự án",
+        "PROJECTS_DESCRIPTION": "Một số dự án mà tôi đã thực hiện:",
+        "PROJECTS_EUREKAS": "Eurekas - Nền tảng chia sẻ tri thức",
+        "PROJECTS_EUREKAS_DESCRIPTION": "Eurekas là một nền tảng chia sẻ tri thức năng động, được xây dựng nhằm kết nối những cá nhân đam mê học hỏi, chia sẻ và phát triển cùng nhau. Người dùng có thể đăng tải kiến thức, chia sẻ kinh nghiệm và tham gia vào các cuộc thảo luận sâu sắc trong nhiều lĩnh vực học thuật và kỹ thuật. Eurekas hỗ trợ xây dựng thương hiệu cá nhân bằng cách giúp người dùng thể hiện chuyên môn của mình và theo dõi mức độ ảnh hưởng thông qua hệ thống điểm đóng góp minh bạch. Dù bạn là sinh viên, chuyên gia hay người yêu thích khám phá tri thức, Eurekas là không gian cộng tác lý tưởng để trao đổi, kết nối và lan tỏa giá trị.",
+        "PROJECTS_HEINSHOP": "HeinShop - Cửa hàng thời trang hiện đại",
+        "PROJECTS_HEINSHOP_DESCRIPTION": "HeinShop là một cửa hàng thời trang trực tuyến hiện đại và thân thiện với người dùng, mang đến trải nghiệm mua sắm mượt mà và tiện lợi. Nền tảng cung cấp đa dạng các sản phẩm thời trang nam và nữ, với giao diện hiện đại, trang sản phẩm chi tiết và quy trình thanh toán an toàn. Dù bạn đang theo đuổi xu hướng mới hay tìm kiếm những món đồ thiết yếu, Heinshop giúp bạn dễ dàng khám phá, lựa chọn và mua sắm trang phục chất lượng ngay tại nhà.",
+        "PROJECTS_FASTFOODSTORE": "FastFoodStore - Hệ thống đặt thức ăn nhanh trực tuyến",
+        "PROJECTS_FASTFOODSTORE_DESCRIPTION": "FastFoodStore là nền tảng đặt hàng thức ăn nhanh trực tuyến nhanh chóng và tiện lợi. Với giao diện hiện đại và trải nghiệm người dùng mượt mà, khách hàng có thể dễ dàng duyệt menu, tùy chỉnh món ăn và đặt hàng chỉ trong vài phút. Với các tính năng như theo dõi đơn hàng theo thời gian thực và thanh toán an toàn, FastFoodStore mang đến cho bạn những bữa ăn ngon từ các nhà hàng yêu thích một cách nhanh chóng, đơn giản và không rắc rối.",
+        "TESTIMONIALS": "Lời chứng thực",
+        "TESTIMONIALS_DESCRIPTION": "Những điều tốt đẹp mà mọi người đã nói về tôi:"
+    },
+
+    "BLOGS_PAGE": {
+        "TITLE": "Blog",
+        "DESCRIPTION": "Chào mừng bạn đến với blog của Nem!"
+    },
+
+    "MINI_APPS_PAGE": {
+        "TITLE": "Kho ứng dụng",
+        "DESCRIPTION": "Khám phá các ứng dụng nhỏ thú vị!",
+        "LEAGUE_OF_LEGENDS_CHAMPIONS": "Các tướng trong Liên Minh Huyền Thoại"
+    },
+
+    "LEAGUE_OF_LEGENDS_CHAMPIONS_PAGE": {
+        "CHOOSE": "Chọn ngay một",
+        "CHAMPION": "Tướng",
+        "DESCRIPTION": "Với hơn 140 tướng, bạn chắc chắn sẽ tìm thấy một lựa chọn phù hợp với lối chơi của mình. Chọn một tướng tủ hoặc sử dụng điêu luyện tất cả.",
+        "ROLE": "Vai trò",
+        "ASSASSIN": "Sát thủ",
+        "FIGHTER": "Đấu sĩ",
+        "MAGE": "Pháp sư",
+        "MARKSMAN": "Xạ thủ",
+        "SUPPORT": "Hỗ trợ",
+        "TANK": "Đỡ đòn",
+        "DIFFICULTY": "Độ khó",
+        "EASY": "Dễ",
+        "MEDIUM": "Trung bình",
+        "HARD": "Khó",
+        "CHAMPION_MASTERY": "Thành thạo tướng",
+        "ABILITIES": "Kỹ năng",
+        "PASSIVE": "Nội tại",
+        "AVAILABLE_SKINS": "Các trang phục có sẵn"
+    },
+
+    "ACTION": {
+        "COPY": "Sao chép",
+        "COPIED": "Đã sao chép vào clipboard!"
+    }
+}

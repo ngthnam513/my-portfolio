@@ -1,0 +1,93 @@
+{
+    "HEADER": {
+        "ABOUT": "About",
+        "BLOGS": "Blogs",
+        "MINI_APPS": "Mini Apps",
+        "DOWNLOAD": "Download CV"
+    },
+
+    "LOCALES": {
+        "vi": "Vietnamese",
+        "en": "English"
+    },
+
+    "THEMES": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+    },
+
+    "FOOTER": {
+        "MESSAGE": "What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
+        "MESSAGE_2": "You may also find me on these platforms!",
+        "COPYRIGHT": "© {year} | Designed and built with ❤️ by Nem"
+    },
+
+    "HOME_PAGE": {
+        "TITLE": "Hi, I'm Nem!",
+        "DESCRIPTION": "I'm a fullstack developer (React.js, Next.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 1 years, I still love it as if it was something new.",
+        "LOCATION": "Dong Thap, Vietnam",
+        "CURRENT_STATUS": "Available for new projects",
+        "ABOUT_ME": "About Me",
+        "ABOUT_ME_DESCRIPTION_1": "Curious about me? Here you have it:",
+        "ABOUT_ME_DESCRIPTION_2": "I am a passionate self-taught developer, specializing in fullstack development (React.js, Next.js & Node.js). I am very enthusiastic about bringing the combination of technical and visual elements to digital products. User experience, pixel-perfect design, and writing clear, readable, and high-performance code are things I always prioritize.",
+        "ABOUT_ME_DESCRIPTION_3": "I started my journey as a web developer in 2021, and since then, I have continuously grown, learned the latest technologies, and embraced new challenges. Now, in my early twenties, 4 years after starting my web development career, I am building modern web applications using advanced technologies like Next.js, TypeScript, Tailwindcss, Shadcn/ui, Frappe, and many other tools.",
+        "ABOUT_ME_DESCRIPTION_4": "I am a progressive thinker and enjoy working on products end-to-end, from the initial concept to full development.",
+        "ABOUT_ME_DESCRIPTION_5": "When I'm not in full developer mode, you can find me scrolling through Facebook or Reddit, following the journey of early-stage startups, or simply enjoying some free time. You can follow me on Facebook, where I share tech-related knowledge and my journey of building in public, or on GitHub.",
+        "ABOUT_ME_DESCRIPTION_6": "A few interesting things about me.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_1": "I can speak Vietnamese and a bit of English.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_2": "I am a tech enthusiast.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_3": "I enjoy gaming, especially strategy and role-playing games.",
+        "ABOUT_ME_DESCRIPTION_6_ITEM_4": "I am also a football fan, and I often spend my free time watching football matches, especially those involving Marcelo Vieira.",
+        "ABOUT_ME_DESCRIPTION_7": "Finally, I am also available for freelance projects, so feel free to reach out and say hello! I promise I won't bite :D.",
+        "SKILLS": "Skills",
+        "SKILLS_DESCRIPTION": "The skills, tools and technologies I am really good at:",
+        "PROJECTS": "Projects",
+        "PROJECTS_DESCRIPTION": "Some of the noteworthy projects I have built:",
+        "PROJECTS_EUREKAS": "Eurekas - A Knowledge Sharing Platform",
+        "PROJECTS_EUREKAS_DESCRIPTION": "Eurekas is a dynamic knowledge-sharing platform designed to connect individuals who are passionate about learning, teaching, and growing together. Users can post insights, share experiences, and engage in meaningful discussions across diverse academic and technical fields. Eurekas supports the development of personal branding by allowing users to showcase their expertise and track their impact through a transparent, point-based contribution system. Whether you're a student, a professional, or an enthusiast, Eurekas provides a collaborative space to exchange knowledge, build community, and inspire others.",
+        "PROJECTS_HEINSHOP": "Heinshop - A Modern Clothing Store",
+        "PROJECTS_HEINSHOP_DESCRIPTION": "Heinshop is a stylish and user-friendly online clothing store built to offer a seamless shopping experience. It features a wide range of fashion items for men and women, complete with detailed product pages, modern UI, and secure checkout. Whether you're browsing the latest trends or shopping for essentials, Heinshop makes it easy to discover, choose, and purchase quality clothing from the comfort of your home.",
+        "PROJECTS_FASTFOODSTORE": "FastFoodStore - Online Fast Food Ordering System",
+        "PROJECTS_FASTFOODSTORE_DESCRIPTION": "FastFoodStore is a fast and convenient online ordering platform for your favorite fast food. Built with a modern interface and smooth user experience, customers can easily browse menus, customize their meals, and place orders within minutes. With features like real-time order tracking and secure checkout, FastFoodStore makes enjoying delicious meals from your favorite restaurants quick, simple, and hassle-free.",
+        "TESTIMONIALS": "Testimonials",
+        "TESTIMONIALS_DESCRIPTION": "Nice things people have said about me:"
+    },
+
+    "BLOGS_PAGE": {
+        "TITLE": "Blog",
+        "DESCRIPTION": "Welcome to my blog!"
+    },
+
+    "MINI_APPS_PAGE": {
+        "TITLE": "Mini Apps",
+        "DESCRIPTION": "Welcome to my mini apps!",
+        "LEAGUE_OF_LEGENDS_CHAMPIONS": "League of Legends Champions"
+    },
+
+    "LEAGUE_OF_LEGENDS_CHAMPIONS_PAGE": {
+        "CHOOSE": "Now choose a",
+        "CHAMPION": "Champion",
+        "DESCRIPTION": "With more than 140 champions, you’ll find the perfect match for your playstyle. Master one, or master them all.",
+        "ROLE": "Role",
+        "ASSASSIN": "Assassin",
+        "FIGHTER": "Fighter",
+        "MAGE": "Mage",
+        "MARKSMAN": "Marksman",
+        "SUPPORT": "Support",
+        "TANK": "Tank",
+        "DIFFICULTY": "Difficulty",
+        "EASY": "Easy",
+        "MEDIUM": "Medium",
+        "HARD": "Hard",
+        "CHAMPION_MASTERY": "Champion mastery",
+        "ABILITIES": "Abilities",
+        "PASSIVE": "Passive",
+        "AVAILABLE_SKINS": "Available Skins"
+    },
+
+    "ACTION": {
+        "COPY": "Copy",
+        "COPIED": "Copied to clipboard!"
+    }
+}

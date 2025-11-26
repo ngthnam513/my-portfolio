@@ -1,0 +1,12 @@
+export default function ArrowRightIcon(props: React.SVGProps<SVGSVGElement>) {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 32 32" fill="currentcolor" {...props}>
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M20.8714 14.9997L16.5786 10.7072L17.9928 9.29297L24.6999 15.9997L17.9928 22.7069L16.5786 21.2926L20.8715 16.9997H9V14.9997H20.8714Z"
+                fill="currentcolor"
+            />
+        </svg>
+    );
+}
