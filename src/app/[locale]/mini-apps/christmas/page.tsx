@@ -1,3 +1,7 @@
+/* eslint-disable */
+/* @typescript-eslint/ban-ts-comment: off */
+/* @typescript-eslint/no-explicit-any: off */
+
 'use client';
 
 import { DrawingUtils, FilesetResolver, GestureRecognizer } from '@mediapipe/tasks-vision';
