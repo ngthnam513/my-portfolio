@@ -62,7 +62,9 @@
     "MINI_APPS_PAGE": {
         "TITLE": "Mini Apps",
         "DESCRIPTION": "Welcome to my mini apps!",
-        "LEAGUE_OF_LEGENDS_CHAMPIONS": "League of Legends Champions"
+        "LEAGUE_OF_LEGENDS_CHAMPIONS": "League of Legends Champions",
+        "CHAT_BOT": "Chat Bot",
+        "CHRISTMAS_APP": "3D Christmas App"
     },
 
     "LEAGUE_OF_LEGENDS_CHAMPIONS_PAGE": {

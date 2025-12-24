@@ -62,7 +62,9 @@
     "MINI_APPS_PAGE": {
         "TITLE": "Kho ứng dụng",
         "DESCRIPTION": "Khám phá các ứng dụng nhỏ thú vị!",
-        "LEAGUE_OF_LEGENDS_CHAMPIONS": "Các tướng trong Liên Minh Huyền Thoại"
+        "LEAGUE_OF_LEGENDS_CHAMPIONS": "Các tướng trong Liên Minh Huyền Thoại",
+        "CHAT_BOT": "Trợ lý trò chuyện AI",
+        "CHRISTMAS_APP": "Ứng dụng Giáng Sinh 3D"
     },
 
     "LEAGUE_OF_LEGENDS_CHAMPIONS_PAGE": {

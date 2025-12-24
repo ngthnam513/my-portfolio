@@ -44,5 +44,15 @@
     "svg.preview.background": "editor",
     "github.copilot.editor.enableAutoCompletions": true,
     "tailwindCSS.experimental.classRegex": [],
-    "tailwindCSS.experimental.configFile": "src/styles/index.scss"
+    "tailwindCSS.experimental.configFile": "src/styles/index.scss",
+    "tailwindCSS.includeLanguages": {
+        "typescript": "javascript",
+        "typescriptreact": "javascript"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    }
 }

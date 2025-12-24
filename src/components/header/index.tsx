@@ -1,15 +1,15 @@
 'use client';
 
-import { useLocale, useTranslations } from 'next-intl';
-import ThemeSelector from '../theme-selector';
-import LocaleSelector from '../locale-selector';
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from '@/components/ui/sheet';
-import { Menu } from 'lucide-react';
-import Link from 'next/link';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import routes from '@/contants/routes';
-import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
+import { Menu } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+import LocaleSelector from '../locale-selector';
+import ThemeSelector from '../theme-selector';
 
 export default function Header() {
     const t = useTranslations('HEADER');
@@ -58,7 +58,8 @@ export default function Header() {
                         <SheetTrigger className="opacity-70">
                             <Menu className="size-8" />
                         </SheetTrigger>
-                        <SheetContent>
+                        <SheetContent aria-describedby={undefined}>
+                            <SheetTitle></SheetTitle>
                             <SheetHeader className="bg-background h-[68px] justify-center px-4 py-0 shadow-md">
                                 <Link
                                     href={routes.home}
